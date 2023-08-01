@@ -13,7 +13,7 @@
     fetchMovies(title.innerHTML);
   
     async function fetchMovies(search) {
-      const url = `https://www.omdbapi.com/?t=${search}&type=movie&apikey=28a2ff0`;
+      const url = `https://www.omdbapi.com/?t=${search}&type=movie&apikey=d5ab2f8`;
       try {
         const response = await fetch(url);
         const data = await response.json();
