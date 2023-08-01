@@ -1,5 +1,5 @@
-//api
-//key= http://www.omdbapi.com/?i=tt3896198&apikey=28a2ff0
+
+//Api_key= http://www.omdbapi.com/?i=tt3896198&apikey=d5ab2f86
 (function () {
     const searchKeyword = document.getElementById("search");
     const suggestionsContainer = document.getElementById("card-container");
@@ -47,7 +47,7 @@
   
     // Fetches data from api and calls function to add it in
     async function fetchMovies(search) {
-      const url = `https://www.omdbapi.com/?t=${search}&apikey=28a2ff0`;
+      const url = `https://www.omdbapi.com/?t=${search}&apikey=d5ab2f8`;
       try {
         const response = await fetch(url);
         const data = await response.json();
